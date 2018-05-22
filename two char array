@@ -1,0 +1,26 @@
+#给两个char array
+
+#i loop len(b)
+#compare a[-1-i],b[-1-i+t], unequal -> return false
+#counter for '/b', if counter > 0  -> t += 1
+
+#list1,list2
+
+if not list1:
+  return list1 == list2
+t = 0
+counter = 0
+pointer = 0
+while pointer < len(list1):
+  if counter > 0:
+    t += 1
+  if list1[-1-i] == '/b':
+    counter += 1
+    t += 1
+  elif counter > 0:
+    counter -= 1
+  else:
+    if len(list2) -1 -i + t < 0 or list1[-1-i] != list2[-1 - i +t]:
+      return False
+  i += 1
+return True
