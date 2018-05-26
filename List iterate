@@ -1,4 +1,4 @@
-Two char array
+1.Two char array
 
     #给两个char array，有一些char为backspace，判断两个array最终是否一致。
     1.stack time O（n），Space O（n）
@@ -31,7 +31,37 @@ Two char array
     return True
 
 
-比特翻转
+2.比特翻转
     12345678 -> 78563412
+    给一个数，求翻转结果
+    
     两两遍历，i += 2每次，不行就加1
     注意：输入是str还是int
+
+3.数字翻倍
+    给定一个数组a和b，如果b里有和a一样的数字，把a翻倍，直到没有a。
+    求a
+    
+    思路：brute force，b中的数字存为hashmap -> O（n）
+         优化hashmap的方式？ 6，12，24 -> 48 同一组的数做预处理
+    先构造hashmap
+    dic[k] = -1
+    if 2*k in dic:
+        dic[k] = dic[2*k]
+    else:
+        dic[k] = 2*k
+    
+    可以预处理，也可以边算边处理。（如果-1就计算一遍，如果不是则返回dic[k]）
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
