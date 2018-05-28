@@ -10,10 +10,10 @@
         优化：性价比剪枝，
         for n中，每次选择的顺序：性价比高的先做helper操作
 
-2.string 组成
-    判断非空字符串能否由dic中的单词组成
-    sortsortsort 和 [sort,boy], true
-    jump 和[jum,mp] false
+2.string 组成  
+判断非空字符串能否由dic中的单词组成
+sortsortsort 和 [sort,boy], true
+jump 和[jum,mp] false
     
     思路：
     遍历list，word in dic -> if helper([i:]) return True
