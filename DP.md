@@ -41,3 +41,9 @@ jump 和[jum,mp] false
     一个可行的最短时间安排是：CDABCDA_CD
     时间是：10
     
+    思路：构造贪心，从频率最高的开始排。
+    corner case： 1.最后有空位 2.最后有多余的node
+    
+    
+    
+    
