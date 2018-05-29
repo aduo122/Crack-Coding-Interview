@@ -89,7 +89,17 @@
     helper function：
     从小到大每个数遍历，remove n，得到新的list，做helper（newlist），传递 n + helper 结果
     
+7.螺旋矩阵
+给你一个整数n，构建一个n*n的螺旋矩阵
+
+    例如，n=4
+
+    1   2   3  4
+    12 13  14  5
+    11 16  15  6
+    10  9   8  7
     
+    思路：构造空集，按照index依次填数，注意奇偶
 
     
     
