@@ -101,14 +101,13 @@
     
     思路：构造空集，按照index依次填数，注意奇偶
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
+8.整合字符
+给你一堆字符串，把同字母异形的字符串放在一起。
+例如：
+输入：bit, tiger, tib, tbi, bbt, gerti
+
+输出：[bit, tib, tbi], [tiger, gerti], [bbt]
+
+    思路：每个字符构造group，构造disjoint set，再返回子节点
     
 
