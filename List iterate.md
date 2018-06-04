@@ -121,3 +121,13 @@
     镜面对称构造平面，然后按照tan theta 找到下的袋。再按照穿过的mirror数量找回袋的标号
     注意没有下球的情况？？
 
+10.字符串匹配  
+first = abcdefgacde
+second = ade
+返回acde
+
+    思路：
+    brute force：遍历first，最短的返回。
+
+
+
