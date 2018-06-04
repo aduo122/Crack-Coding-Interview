@@ -1,1 +1,1 @@
-# Crack-Data-Interview
+# General coding practices
