@@ -128,6 +128,7 @@ second = ade
 
     思路：
     brute force：遍历first，最短的返回。
-
+    先选出第一个成立的list，pop出第一个字母，在后面找到相应的字母，再剔除不再second里的字母
+    最后返回最短list
 
 
