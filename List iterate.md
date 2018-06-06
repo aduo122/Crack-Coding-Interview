@@ -150,5 +150,23 @@ ans = 6
 
     思路：
     brute force：每次pop(0),非0则append，O(ans)
-    优化：pos前面最多买queue[pos]+1张票，之后最多买queue[pos]-1张票，scan一遍O(n)
+    优化：
+    pos前面最多买queue[pos]+1张票，之后最多买queue[pos]-1张票，scan一遍O(n)
+    follow up：
+    每次买K张？
 
+13.输入一个矩阵
+{1,2,3
+ 4,5,6
+ 7,8,9}
+ 
+ target = 16
+ 求不超过target的最大子矩阵(难题)
+ 返回16
+ {2，3
+  5，6}
+  
+    思路：
+    brute force：长枚举遍历，宽枚举遍历，m^2 * n^2
+    优化：枚举长边
+    
