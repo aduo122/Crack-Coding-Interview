@@ -140,4 +140,15 @@ second = ade
     不匹配，如果左，放进去，如果右，报错
     最后stack为空，返回true
 
+12. 一群人买票，知道自己位置以及队中每个人买票的数量。
+每次每人买一张票，多的从新排队。求自己卖完时卖了多少票？
+
+queue = {3,2,1,1}
+pos = 2
+
+ans = 6
+
+    思路：
+    brute force：每次pop(0),非0则append，O(ans)
+    优化：pos前面最多买queue[pos]+1张票，之后最多买queue[pos]-1张票，scan一遍O(n)
 
