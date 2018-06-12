@@ -23,4 +23,6 @@
 {abcdef,abcdef,xyzxyz} target: zaf 
 return True
 
-    思路：
+    思路：DFS，z - a - f按顺序依次
+    优化：从target里统计字母出现频率，再统计骰子里面字母出现频率
+    从diff为0的开始搜索，每次更新字母数量
