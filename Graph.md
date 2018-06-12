@@ -18,4 +18,9 @@
     followup：没有地图怎么办？
     构建主观地图，如果返回false则撞墙，构建地图。计算下一个探索的距离，直接走过去。
 
+3.输入很多6面骰子，请问能否组成指定单词？
 
+{abcdef,abcdef,xyzxyz} target: zaf 
+return True
+
+    思路：
