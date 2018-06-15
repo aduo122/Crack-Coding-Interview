@@ -1,8 +1,10 @@
 1.输入Vote List， 格式（time，name），给定时间t  
 1.求t之前票数最高的人  
-sum保存票数max，返回  
+
+    sum保存票数max，返回  
 2.求t之前topk  
-先遍历到t，求sum，再heapmin存sum，求topk的sum  
+
+    先遍历到t，求sum，再heapmin存sum，求topk的sum  
 3.输入candidate的list， 求当candidate是top n的最后时间
  
 2.长度n+1的数组，包含1-n，有且仅有一个数至少出现两次  
