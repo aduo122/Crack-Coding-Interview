@@ -3,7 +3,12 @@
    sort的一些方式：
    ----
     topK：bucket sort
+         T:O(n) S:O(n)
     slidewindow：deque
+    
+    heap:
+        T:O(n) S: O(n) for build 
+        T:O(logn) S:O(n) for insert and rearrange
     
    丑数，构造因数组合
    ----
