@@ -43,4 +43,10 @@
    ----
     入度出度计数，每次pop入度为0的，如果剩下还有东西则有环
    
+   树结构
+   ----
+    in order 左上右
+    pre order 上左右
+    post order 左右上
+    recursive, iterative法
    
