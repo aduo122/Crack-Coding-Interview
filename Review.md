@@ -53,4 +53,6 @@
     pre order 上左右
     post order 左右上
     recursive, iterative法
+    
+    线段树：二分左右，子树为前后两段各自的和，适用于求和问题
    
