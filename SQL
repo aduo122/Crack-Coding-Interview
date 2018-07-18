@@ -2,3 +2,6 @@
   直接连立两表，不需要join
   本质上做了一个cross join
   记得group by 确保每个unique值返回
+
+2.找重复的
+  先找distinct list，再找id不在这个list里的删除
