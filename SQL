@@ -1,0 +1,4 @@
+1.where 用法
+  直接连立两表，不需要join
+  本质上做了一个cross join
+  记得group by 确保每个unique值返回
