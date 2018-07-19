@@ -14,6 +14,8 @@
   也可以用if
   if（a>b, res1, res2）
   
+  case 与if的区别：用于区分null
+  
 套路总结：
 1.按照colum找最值
   先按照colum group by找到最值，
