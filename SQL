@@ -6,6 +6,14 @@
 2.找重复的
   先找distinct list，再找id不在这个list里的删除
   
+3.if语句
+  when case... then...
+       case... then...
+  end
+  
+  也可以用if
+  if（a>b, res1, res2）
+  
 套路总结：
 1.按照colum找最值
   先按照colum group by找到最值，
