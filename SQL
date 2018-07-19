@@ -5,3 +5,8 @@
 
 2.找重复的
   先找distinct list，再找id不在这个list里的删除
+  
+套路总结：
+1.按照colum找最值
+  先按照colum group by找到最值，
+  再从多个表选取值，用where连立选出最值
