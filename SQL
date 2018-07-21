@@ -15,6 +15,9 @@
   if（a>b, res1, res2）
   
   case 与if的区别：用于区分null
+4.以。。。开头
+  like ‘a%’
+  可以用逻辑词连立
   
 套路总结：
 1.按照colum找最值
