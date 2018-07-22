@@ -23,6 +23,13 @@
 5.字符长度
   length（name）
   
+6.Pivot 用法
+  1.先用if在不同的col上填上数值，有大量的空格
+  2.group by row 坐标，有的时候需要自己建立rank
+
+7.rank 写法
+  和自己join，strcmp 关键词 >= 0，然后group by 关键词，count关键词，即可得到rank
+  
 套路总结：
 1.按照colum找最值
   先按照colum group by找到最值，
