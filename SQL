@@ -29,6 +29,9 @@
 
 7.rank 写法
   和自己join，strcmp 关键词 >= 0，然后group by 关键词，count关键词，即可得到rank
+
+8.替换字符串
+  replace，数字可以自动转化类型，直接用，十分方便
   
 套路总结：
 1.按照colum找最值
