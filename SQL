@@ -34,8 +34,10 @@
   replace，数字可以自动转化类型，直接用，十分方便
   
 9.having 用法
-  where放前面
-  replace，数字可以自动转化类型，直接用，十分方便
+  where放group前面，先做些筛选
+  之后group by
+  最后having，在where的结果之上做group的二次筛选
+
 套路总结：
 1.按照colum找最值
   先按照colum group by找到最值，
