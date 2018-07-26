@@ -38,6 +38,10 @@
   之后group by
   最后having，在where的结果之上做group的二次筛选
 
+10. UDF
+  用@pre定义变量
+  @pre := @pre + 1赋值
+
 套路总结：
 1.按照colum找最值
   先按照colum group by找到最值，
