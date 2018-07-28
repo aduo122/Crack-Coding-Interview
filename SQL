@@ -50,3 +50,12 @@
 2.第几个
 
 3.前几个
+
+4.买了XXX的人
+where buy in（XXX）
+group by buyer
+having buy > 3
+    
+    
+    
+    
