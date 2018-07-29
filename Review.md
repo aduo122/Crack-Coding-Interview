@@ -9,6 +9,12 @@
     heap:
         T:O(n) S: O(n) for build 
         T:O(logn) S:O(n) for insert and rearrange
+        
+   binary search
+   ----
+      两种方式：
+      1. sort index，找到对应index的数字
+      2. sort数字，看小于该数字的有几个，求第K个数字
     
    丑数，构造因数组合
    ----
