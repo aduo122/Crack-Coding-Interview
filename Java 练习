@@ -1,0 +1,18 @@
+1. Stack
+  stack.empty()
+  stack.pop()
+  stack.push()
+
+2. HashMap
+  map.get(key)
+  map.put(key, value)
+  map.containsKey(key)
+
+3. HashSet
+  set.add(key)
+  set.contiains(key)
+  set.claer()
+  set.clone()
+  set.size()
+  set.remove()
+  
