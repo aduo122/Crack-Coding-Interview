@@ -1,0 +1,12 @@
+LinkedList Sum problems
+  2.Add Two Numbers
+    method 1 add number accordingly, add the additional number at last
+    
+  445.Add Two Numbers II
+    method 1 get int numbers from the linkedlist first, then get the sum and turn into linkedlist as result
+    method 2 iterate through the linkedlist, turn into stack, do the reverse iterate from stack
+  
+  43. Multiply Strings
+    method 1 make function multiply, function add, iterate the small number to sum up the result.
+  
+  
