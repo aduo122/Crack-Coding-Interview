@@ -21,8 +21,15 @@ N Sum Problems
   16. 3 Sum Closest
     method 1 sort first, iterate through all the rest pairs, update result every time.
   
+  Sub question: Segment Tree
+  
   560. Subarray Sum Equals K
-    method 1
+    method 1 calculate subsum first, iterate newlist, store value in dic, check cur_sum - tar in dic 注意此处顺序！
+  724. Find Pivot Number
+    method 1 calculate sumall first, then iterate the current sum, check if fits
+  523. modular segment tree
+    method 1 use modular carry the sum, notice for k, [0,0,0,0] is valid result
+  
   
   
   
