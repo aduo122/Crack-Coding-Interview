@@ -8,5 +8,21 @@ LinkedList Sum problems
   
   43. Multiply Strings
     method 1 make function multiply, function add, iterate the small number to sum up the result.
+
+N Sum Problems
+  1. Two Sum
+    method 1 brute force, iterate all the pairs, O(n^2)
+    method 2 sort list, two pointer
+    method 3 dictionary
+  
+  15. 3 Sum
+    method 1 sort first, then two pointer, iterate through the first element
+             no duplicate, need to skip some numbers, if it's the same with previous one
+  16. 3 Sum Closest
+    method 1 sort first, iterate through all the rest pairs, update result every time.
+  
+  560. Subarray Sum Equals K
+    method 1
+  
   
   
