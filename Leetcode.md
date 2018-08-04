@@ -1,5 +1,5 @@
 LinkedList Sum problems
-----
+====
   2.Add Two Numbers
     method 1 add number accordingly, add the additional number at last
     
@@ -11,7 +11,7 @@ LinkedList Sum problems
     method 1 make function multiply, function add, iterate the small number to sum up the result.
 
 N Sum Problems
-----
+====
   1 Two Sum
     method 1 brute force, iterate all the pairs, O(n^2)
     method 2 sort list, two pointer
@@ -32,7 +32,7 @@ N Sum Problems
     O(n^2)
   
   Sub question: Segment Tree
-  ====
+  ----
   
   560. Subarray Sum Equals K
     method 1 calculate subsum first, iterate newlist, store value in dic, check cur_sum - tar in dic 注意此处顺序！
@@ -42,12 +42,12 @@ N Sum Problems
     method 1 use modular carry the sum, notice for k, [0,0,0,0] is valid result
   
   Sub Question: Combination Sum
-  ====
+  ----
   39.
   40. 
   
 Binary Search
-----
+====
   33.Search in Rotated Sorted Array
     method 1 find pivot first, then search in the right part
     method 2 all together, 1 time search, every time test if nums[m] > nums[l]
@@ -55,4 +55,4 @@ Binary Search
 
 
 Substring
-----
+====
