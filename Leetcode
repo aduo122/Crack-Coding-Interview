@@ -21,6 +21,14 @@ N Sum Problems
   16. 3 Sum Closest
     method 1 sort first, iterate through all the rest pairs, update result every time.
   
+  18. 4 Sum
+    method 1 sort first, iterate 2 layers make it 2 sum
+    O(n^3)
+  
+  454. 4 Sum 2
+    medhod 1 calculate sum of A,B permutation, calculate C,D permutation, then it's like 2 sum
+    O(n^2)
+  
   Sub question: Segment Tree
   
   560. Subarray Sum Equals K
