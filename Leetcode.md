@@ -1,4 +1,5 @@
-LinkedList Sum problems  
+LinkedList Sum problems
+----
   2.Add Two Numbers
     method 1 add number accordingly, add the additional number at last
     
@@ -10,6 +11,7 @@ LinkedList Sum problems
     method 1 make function multiply, function add, iterate the small number to sum up the result.
 
 N Sum Problems
+----
   1. Two Sum
     method 1 brute force, iterate all the pairs, O(n^2)
     method 2 sort list, two pointer
@@ -42,5 +44,6 @@ N Sum Problems
   39.
   40. 
   
-  
+  Binary Search
+  ----
   
