@@ -46,4 +46,7 @@ N Sum Problems
   
   Binary Search
   ----
-  
+  33.Search in Rotated Sorted Array
+    method 1 find pivot first, then search in the right part
+    method 2 all together, 1 time search, every time test if nums[m] > nums[l]
+  81. follow up of 33
