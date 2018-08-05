@@ -48,11 +48,26 @@ N Sum Problems
   
 Binary Search
 ====
+  index二分  
+  左右边界为index，当左右index重合时跳出。通过A[index]来判断条件
+  ----
   33 Search in Rotated Sorted Array
     method 1 find pivot first, then search in the right part
     method 2 all together, 1 time search, every time test if nums[m] > nums[l]
   81 follow up of 33
-
+  
+  value二分
+  左右边界为值，通过mid值来卡一些条件,通常关键词带有“第K个”
+  ----
+  378 Kth Smallest Element in a Sorted Matrix
+  719 Find K-th Smallest Pair Distance
+  786 K-th Smallest Prime Fraction
+  
 
 Substring
 ====
+  中心法遍历  
+  遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1
+  ----
+    5 Longest Palindromic Substring
+    中心法搜索，记录当前最大半径，然后以最大半径起始搜，可以剪枝
