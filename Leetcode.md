@@ -66,8 +66,13 @@ Binary Search
 
 Palindrome
 ====
-  中心法遍历  
+  中心法遍历, 适用substring
   遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1
   ----
     5 Longest Palindromic Substring
     中心法搜索，记录当前最大半径，然后以最大半径起始搜，可以剪枝
+  
+  DP法，适用subsequence
+  从两头考虑，如果相同2+下一层，否则，两边分别减一找dp
+  ----
+    516 Longest Palindromic Subsequence
