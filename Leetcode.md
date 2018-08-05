@@ -71,6 +71,9 @@ Palindrome
   ----
     5 Longest Palindromic Substring
     中心法搜索，记录当前最大半径，然后以最大半径起始搜，可以剪枝
+    
+    647 Palindromic Substrings
+  
   
   DP法，适用subsequence
   从两头考虑，如果相同2+下一层，否则，两边分别减一找dp
