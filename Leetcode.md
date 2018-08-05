@@ -64,7 +64,7 @@ Binary Search
   786 K-th Smallest Prime Fraction
   
 
-Substring
+Palindrome
 ====
   中心法遍历  
   遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1
