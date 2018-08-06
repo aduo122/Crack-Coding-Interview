@@ -50,7 +50,7 @@ Binary Search
 ====
   index二分  
   左右边界为index，当左右index重合时跳出。通过A[index]来判断条件
-  ----
+  
     4 Median of Two Sorted Arrays
     中位数转化为找第K个数，分割两个数组，找到前面的最大值与后面的最小值
     利用二分法找到分割的ind
@@ -67,7 +67,7 @@ Binary Search
   
   value二分
   左右边界为值，通过mid值来卡一些条件,通常关键词带有“第K个”
-  ----
+  
     378 Kth Smallest Element in a Sorted Matrix
     719 Find K-th Smallest Pair Distance
     786 K-th Smallest Prime Fraction
@@ -76,9 +76,9 @@ Binary Search
 Palindrome
 ====
   substring
-  中心法遍历, 遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1
+  中心法遍历, 遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1 . 
   KMP 算法，类似trie树？
-  ----
+  
     5 Longest Palindromic Substring
     中心法搜索，记录当前最大半径，然后以最大半径起始搜，可以剪枝
     
@@ -86,5 +86,17 @@ Palindrome
   
   subsequence
   DP法，从两头考虑，如果相同2+下一层，否则，两边分别减一找dp
-  ----
+  
     516 Longest Palindromic Subsequence
+
+Interval Questions
+====
+  Sort First, then iterate through the list 
+  
+    56 Merge Intervals
+    
+Tree Structure
+====
+  Three iterate
+    94
+     
