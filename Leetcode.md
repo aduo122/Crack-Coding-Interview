@@ -51,10 +51,19 @@ Binary Search
   index二分  
   左右边界为index，当左右index重合时跳出。通过A[index]来判断条件
   ----
+  4 Median of Two Sorted Arrays
+    中位数转化为找第K个数，分割两个数组，找到前面的最大值与后面的最小值
+    利用二分法找到分割的ind
   33 Search in Rotated Sorted Array
     method 1 find pivot first, then search in the right part
     method 2 all together, 1 time search, every time test if nums[m] > nums[l]
   81 follow up of 33
+  
+  74 Search a 2D Matrix
+    两次二分法
+  
+  240 Search a 2D Matrix II
+    每一行二分搜索，由之前的结果得到右边的边界
   
   value二分
   左右边界为值，通过mid值来卡一些条件,通常关键词带有“第K个”
