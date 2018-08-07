@@ -95,6 +95,14 @@ Array Manipulation
   
   string compare
   ----
+  Simple iterate
+    
+    14. Longest Common Prefix
+    
+  Two pointers
+  
+    ???
+  
   DP, compare current, match or not, find result from next layer
   
     10 Regular Expression Matching
