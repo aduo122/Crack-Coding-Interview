@@ -75,9 +75,11 @@ Binary Search
     786 K-th Smallest Prime Fraction
   
 
-Palindrome
+Array Manipulation
 ====
-  substring
+  palindrone
+  ----
+  substring for palindrone
   中心法遍历, 遍历string，以当前的为起始点，半径为0，向两边搜索，如果新的边界相等则半径+1 . 
   KMP 算法，类似trie树？
   
@@ -90,6 +92,15 @@ Palindrome
   DP法，从两头考虑，如果相同2+下一层，否则，两边分别减一找dp
   
     516 Longest Palindromic Subsequence
+  
+  string compare
+  ----
+  DP, compare current, match or not, find result from next layer
+  
+    10 Regular Expression Matching
+    if .*: if cur match, return (s[1:], p) or (s, p[2:])
+           else: return (s, p[2:])
+    make sure ahead if .* matches abc or aaa
 
 Interval Questions
 ====
@@ -102,3 +113,4 @@ Tree Structure
   Three iterate
     94
      
+   
