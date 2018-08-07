@@ -1,5 +1,7 @@
-LinkedList Sum problems
+LinkedList 
 ====
+  Sum problems
+  ----
     2.Add Two Numbers
     method 1 add number accordingly, add the additional number at last
     
@@ -9,6 +11,10 @@ LinkedList Sum problems
   
     43. Multiply Strings
     method 1 make function multiply, function add, iterate the small number to sum up the result.
+  Use Headers
+  ----
+    19. Remove Nth Node From End of List
+    pre,cur,front. move front first n steps. When front reaches end, cur indicates last n node, then use, pre.next = cur.next
 
 N Sum Problems
 ====
