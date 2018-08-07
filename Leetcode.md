@@ -96,8 +96,10 @@ Array Manipulation
   string compare
   ----
   Simple iterate
+  
+    14 Longest Common Prefix
+    54 Spiral Matrix
     
-    14. Longest Common Prefix
     
   Two pointers, forward tracking and back tracking
   
