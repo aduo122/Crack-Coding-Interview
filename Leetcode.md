@@ -99,9 +99,11 @@ Array Manipulation
     
     14. Longest Common Prefix
     
-  Two pointers
+  Two pointers, forward tracking and back tracking
   
-    ???
+    11 Container With Most Water
+    42 Trapping Rain Water
+    238 Product of Array Except Self
   
   DP, compare current, match or not, find result from next layer
   
