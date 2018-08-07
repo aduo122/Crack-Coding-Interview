@@ -14,7 +14,8 @@ LinkedList
   Use Headers
   ----
     19. Remove Nth Node From End of List
-    pre,cur,front. move front first n steps. When front reaches end, cur indicates last n node, then use, pre.next = cur.next
+    pre,cur,front. move front first n steps. 
+    When front reaches end, cur indicates last n node, then use, pre.next = cur.next
 
 N Sum Problems
 ====
