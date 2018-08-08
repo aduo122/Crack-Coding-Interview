@@ -124,6 +124,7 @@ Array Manipulation
     
     
   Two pointers, forward tracking and back tracking
+  n^2 -> n
   
     11 Container With Most Water
     
@@ -135,6 +136,10 @@ Array Manipulation
       left pointer for putting < to left, 
       right pointer for putting > to right, 
       the rest is just fine, cur pointer for getting cur value
+    
+    76. Minimum Window Substring
+    brute force, n^2
+    two pointer, move right for storing new character, move left for calculation result
   
   DP, compare current, match or not, find result from next layer
   
