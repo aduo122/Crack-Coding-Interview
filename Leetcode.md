@@ -140,6 +140,10 @@ Array Manipulation
     76. Minimum Window Substring
     brute force, n^2
     two pointer, move right for storing new character, move left for calculation result
+    
+    135. Candy
+    front track, back track
+    get max of both list to calculate
   
   DP, compare current, match or not, find result from next layer
   
