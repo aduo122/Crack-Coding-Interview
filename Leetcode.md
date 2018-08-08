@@ -120,6 +120,10 @@ Array Manipulation
     11 Container With Most Water
     42 Trapping Rain Water
     238 Product of Array Except Self
+    75. Sort Colors
+    left pointer for putting < to left, 
+    right pointer for putting > to right, 
+    the rest is just fine, cur pointer for getting cur value
   
   DP, compare current, match or not, find result from next layer
   
