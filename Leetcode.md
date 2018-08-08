@@ -16,6 +16,9 @@ LinkedList
     19. Remove Nth Node From End of List
     pre,cur,front. move front first n steps. 
     When front reaches end, cur indicates last n node, then use, pre.next = cur.next
+    
+    92. Reverse Linked List II
+    use pre, cur, front nodes, 
 
 N Sum Problems
 ====
@@ -92,6 +95,10 @@ Array Manipulation
   
     5 Longest Palindromic Substring
     中心法搜索，记录当前最大半径，然后以最大半径起始搜，可以剪枝
+    
+    84. Largest Rectangle in Histogram
+    iterate list, start from each position, find two edge of the rectangle
+    optimize -> use stack for a ascending list, if find the next edge, calculate
     
     647 Palindromic Substrings
   
