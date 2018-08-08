@@ -158,6 +158,10 @@ Interval Questions
   
     56 Merge Intervals
     
+    57. Insert Interval
+    difference senario
+    left overlap, right overlap, outside all overlap, no overlap, first insert, last insert
+    
 Tree Structure
 ====
   Three iterate
