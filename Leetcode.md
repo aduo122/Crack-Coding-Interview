@@ -179,8 +179,9 @@ Graph Problems
 ====
   DFS & BFS
   
-    51. N-Queens
+    51 & 52. N-Queens
     DFS, if the result is possible, add current line to result, return result 
+    
     
     
     
