@@ -165,6 +165,13 @@ Interval Questions
 Tree Structure
 ====
   Three iterate
+  
     94
      
+  Recursive
+  
+    87. Scramble String
+    consider change or not for each step.
+    change -> l1 = s[:l] r2 = s[len(s) - l:]
+    not change -> l1 = s[:l] r2 = s[:l]
    
