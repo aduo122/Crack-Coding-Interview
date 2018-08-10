@@ -121,7 +121,10 @@ Array Manipulation
     14 Longest Common Prefix
     
     54 Spiral Matrix
+    recursive method
     
+    59 Spiral Matrix II
+    recursive method
     
   Two pointers, forward tracking and back tracking
   n^2 -> n
@@ -151,6 +154,8 @@ Array Manipulation
       if .*: if cur match, return (s[1:], p) or (s, p[2:])
              else: return (s, p[2:])
       make sure ahead if .* matches abc or aaa
+      
+  
 
 Interval Questions
 ====
@@ -165,15 +170,27 @@ Interval Questions
 Tree Structure
 ====
   Three iterate
+  inorder, preorder, postorder
   
     94
+    
+    450. Delete Node in a BST
+    consider no child -> delete, 
+             one child -> link from parent
+             two child -> left right most or right left most switch
+     
      
   Recursive
   
+    109. Convert Sorted List to Binary Search Tree
+    
+    
     87. Scramble String
     consider change or not for each step.
     change -> l1 = s[:l] r2 = s[len(s) - l:]
     not change -> l1 = s[:l] r2 = s[:l]
+    
+    113. Path Sum II
    
 Graph Problems
 ====
