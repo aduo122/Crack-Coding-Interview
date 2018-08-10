@@ -175,3 +175,20 @@ Tree Structure
     change -> l1 = s[:l] r2 = s[len(s) - l:]
     not change -> l1 = s[:l] r2 = s[:l]
    
+Graph Problems
+====
+  DFS & BFS
+  
+    51. N-Queens
+    DFS, if the result is possible, add current line to result, return result 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
