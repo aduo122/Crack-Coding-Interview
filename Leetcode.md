@@ -198,7 +198,11 @@ Graph Problems
   
     51 & 52. N-Queens
     DFS, if the result is possible, add current line to result, return result 
+  
+  Topological Sort
     
+    DFS -> find cycle or find sink
+    BFS -> each layer, get sink or return cycle
     
 OO Program
 ====
