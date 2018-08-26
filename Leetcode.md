@@ -209,7 +209,11 @@ OO Program
     146 LRU & LFU
     intrinsically, is ordered dictionary
     
+Geometry
+====
+    rectangle area
     
+    skyline
     
     
     
