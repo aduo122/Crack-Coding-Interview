@@ -17,6 +17,11 @@ LinkedList
       pre,cur,front. move front first n steps. 
       When front reaches end, cur indicates last n node, then use, pre.next = cur.next
 
+    25. Reverse Linked List into K group
+      find if there's k element behind
+      then revese the list
+      connect pre and current head
+      
     92. Reverse Linked List II
       use pre, cur, front nodes, 
 
