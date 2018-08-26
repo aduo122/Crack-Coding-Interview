@@ -131,6 +131,13 @@ Array Manipulation
   
     11 Container With Most Water
     
+    30 Substring with Concatenation of All Words
+      Notice a word can be used only once, 
+      create a dic for count each word, 
+      create a flag for counting if reaches the goal
+      
+      if the fast pointer find duplicate in dic, move the slow pointer remove to the duplicated element
+    
     42 Trapping Rain Water
     
     238 Product of Array Except Self
