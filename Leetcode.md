@@ -183,6 +183,9 @@ Array Manipulation
              else: return (s, p[2:])
       make sure ahead if .* matches abc or aaa
       
+    44 Wildcard Matching
+      ？ -> (i+1,j+1)
+      * -> (i, j+1) or (i+1, j) or (i+1, j+1)
   
 
 Interval Questions
