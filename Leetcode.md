@@ -209,6 +209,7 @@ Tree Structure
      
      
   Recursive
+    test left, right then consider self, record global
   
     109. Convert Sorted List to Binary Search Tree
     
