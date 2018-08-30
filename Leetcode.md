@@ -112,6 +112,12 @@ Binary Search
     
     786 K-th Smallest Prime Fraction
   
+Bit Manipulation
+====
+  Math and Binary Search
+  
+    50 Pow(x, n)
+      x ^ n -> x*x ^(n/2)
 
 Array Manipulation
 ====
