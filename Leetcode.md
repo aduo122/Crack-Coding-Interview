@@ -118,7 +118,10 @@ Bit Manipulation
   
     50 Pow(x, n)
       x ^ n -> x*x ^(n/2)
-
+      
+    372. Super Pow
+      1337 could be generalized to n
+    
 Array Manipulation
 ====
   Palindrone
