@@ -262,7 +262,7 @@ Recursive and DP
     
 Backtracking
 ====
-  Composition questions
+  Construct composition questions
   
     46 & 47 Permutation
     Consider if allows duplication.
@@ -271,7 +271,11 @@ Backtracking
     
     Caution! before trans list, do a deep copy!
     Caution!! start from the worst case
-    
+  
+  
+    526. Beautiful Arrangement
+    667. Beautiful Arrangement II
+      From backtracking -> dp or greedy
     
     
     
