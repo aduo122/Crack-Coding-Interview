@@ -258,10 +258,13 @@ Geometry
 
 Recursive and DP
 ====
+
+    
+Back Tracking
+====
     46 & 47 Permutation
-    consider if allows duplication.
-    
-    
+    Consider if allows duplication.
+    if used or (i > 0 and nums[i] == nums[i-1] and !used[i-1]): continue
     
     
     
