@@ -277,7 +277,10 @@ Backtracking
     667. Beautiful Arrangement II
       From backtracking -> dp or greedy
     
-    
+  Backtracking to DP
+  
+    89. Gray Code
+    each new number just add a digit 1 in the front of reversed list
     
     
     
