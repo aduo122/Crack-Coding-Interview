@@ -260,11 +260,13 @@ Recursive and DP
 ====
 
     
-Back Tracking
+Backtracking
 ====
     46 & 47 Permutation
     Consider if allows duplication.
-    if used or (i > 0 and nums[i] == nums[i-1] and !used[i-1]): continue
+    for duplicates:
+    if used or (i > 0 and nums[i] == nums[i-1] and !used[i-1]): continue //make sure to use the previous letter first
+    
     
     
     
