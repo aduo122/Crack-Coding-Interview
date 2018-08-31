@@ -262,12 +262,15 @@ Recursive and DP
     
 Backtracking
 ====
+  Composition questions
+  
     46 & 47 Permutation
     Consider if allows duplication.
     for duplicates:
     if used or (i > 0 and nums[i] == nums[i-1] and !used[i-1]): continue //make sure to use the previous letter first
     
     Caution! before trans list, do a deep copy!
+    Caution!! start from the worst case
     
     
     
