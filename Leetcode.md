@@ -267,6 +267,8 @@ Backtracking
     for duplicates:
     if used or (i > 0 and nums[i] == nums[i-1] and !used[i-1]): continue //make sure to use the previous letter first
     
+    Caution! before trans list, do a deep copy!
+    
     
     
     
