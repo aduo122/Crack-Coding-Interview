@@ -282,7 +282,12 @@ Backtracking
     526. Beautiful Arrangement
     667. Beautiful Arrangement II
       From backtracking -> dp or greedy
-    
+      
+  Backtracking to Greedy
+  
+    60. Permutation Sequence
+    for each digit, calculate the index, then find the num at index from nums.pop(i)
+  
   Backtracking to DP
   
     89. Gray Code
