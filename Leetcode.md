@@ -274,7 +274,10 @@ Backtracking
   
     93. Restore IP Addresses
     Caution, IP rules: 1. <=255 2. "010", "00" invalid
-  
+    
+    211. Add and Search Word - Data structure design
+    construct Trie Tree
+    or, use dic for indexing length
   
     526. Beautiful Arrangement
     667. Beautiful Arrangement II
