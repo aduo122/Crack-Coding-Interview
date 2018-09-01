@@ -287,6 +287,10 @@ Backtracking
   
     60. Permutation Sequence
     for each digit, calculate the index, then find the num at index from nums.pop(i)
+    
+    306, 842 Slice into Fibonaci 
+    first find the beginning two numbers
+    then test if the following numbers are valid.
   
   Backtracking to DP
   
