@@ -293,5 +293,9 @@ Backtracking
     89. Gray Code
     each new number just add a digit 1 in the front of reversed list
     
+    131. Palindrome Partitioning
+    Consider how to cut first slice, then recursively cut. 
+    Use memoization to optimize
+    
     
     
