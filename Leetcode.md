@@ -272,6 +272,9 @@ Backtracking
     Caution! before trans list, do a deep copy!
     Caution!! start from the worst case
   
+    93. Restore IP Addresses
+    Caution, IP rules: 1. <=255 2. "010", "00" invalid
+  
   
     526. Beautiful Arrangement
     667. Beautiful Arrangement II
