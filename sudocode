@@ -1,0 +1,56 @@
+Graph iteration:
+DFS:
+
+1.recursive
+
+  dic = {} # key : [children]
+  seen = set()
+  
+  def dfs(node):
+    # end function
+    if end: 
+      do something, return 
+    
+    else:
+      for child in dic[node]:
+        if child not in seen:
+          # before visit
+          seen.add(child)
+          dfs(child)
+          # post visit
+
+2. iterative
+
+  dic = {} # key : [children]
+  seen = set()
+  
+  stack = [start]
+  
+  while stack:
+    node = stack.pop()
+    seen.add(node)
+    
+    for child in dic[node]:
+      if child not in seen:
+        stack.append(child)
+  
+
+
+BFS:
+  dic = {}
+  seen = set()
+  def bfs(queue):
+
+    # end function
+    if end: 
+      do something, return   
+      
+    else:
+      t = []
+      for n in queue:
+        for child in dic[n]:
+          if child not in seen:
+            seen.add(child)
+            t.append(child)
+
+          
