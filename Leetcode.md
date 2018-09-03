@@ -258,6 +258,12 @@ Geometry
 
 Recursive and DP
 ====
+    
+    873. Length of Longest Fibonacci Subsequence
+    consider dp[i][j] as the sequence ending as  A[i] and A[j]
+    then if (A[j]-A[i]), A[i] is previously calculated, we can return that and +1
+    
+
 
     
 Backtracking
