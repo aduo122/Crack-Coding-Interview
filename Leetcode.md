@@ -263,6 +263,15 @@ Recursive and DP
     consider dp[i][j] as the sequence ending as  A[i] and A[j]
     then if (A[j]-A[i]), A[i] is previously calculated, we can return that and +1
     
+    837. New 21 Game
+    first solution, calculate dp[i] from pre (dp[i-w] +...+ dp[i]) * 1/W
+    Time O(n): N*W
+    
+    second solution,
+    store the (dp[i-w] +...+ dp[i]) as t_sum
+    every time 
+    dp[i] = t_sum * 1/W
+    t_sum += dp[i] - dp[i-W]
 
 
     
