@@ -263,6 +263,10 @@ Geometry
 
 Recursive and DP
 ====
+    399. Evaluate Division
+    1. revert index, zero excluded
+    2. dfs see if there's a connection, store the result in memo
+    
     
     873. Length of Longest Fibonacci Subsequence
     consider dp[i][j] as the sequence ending as  A[i] and A[j]
