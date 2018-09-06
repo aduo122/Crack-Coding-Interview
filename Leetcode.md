@@ -79,6 +79,21 @@ N Sum Problems
     39
     
     40 
+    
+  Trie and Suffix Tree
+  ----
+  For pattern matching, 2 ways
+  1. brute force
+  iterate and find all the first letter in the pattern
+  see if the following letters matches the pattern
+  
+  2.suffix tree
+  when patterns are too much,
+  suffix tree is good
+  
+  
+  
+  
   
 Binary Search
 ====
