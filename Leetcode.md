@@ -259,6 +259,10 @@ Graph Problems
   
     51 & 52. N-Queens
     DFS, if the result is possible, add current line to result, return result 
+    
+    886. Possible Bipartition
+    BFS, pay attention to nodes not in dislike, dic[node] = [] or test node in dic each time
+    pay attention to when to stop the queue. use the two set to check if child is visited already.
   
   Topological Sort
     
