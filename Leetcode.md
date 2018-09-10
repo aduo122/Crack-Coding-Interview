@@ -344,5 +344,10 @@ Backtracking
     Consider how to cut first slice, then recursively cut. 
     Use memoization to optimize
     
+  Permutation
+  
+    31.next permutation
+    iterate, find next large number, follows init
+    
     
     
