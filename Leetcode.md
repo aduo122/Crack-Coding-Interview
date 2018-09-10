@@ -349,5 +349,10 @@ Backtracking
     31.next permutation
     iterate, find next large number, follows init
     
+Game Strategy
+====
+
+    464. Can I win
+    maitain a list for posible draws. consider I draw a number and nomatter what you draw, I win
     
     
