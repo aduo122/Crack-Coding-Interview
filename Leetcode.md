@@ -358,5 +358,18 @@ Game Strategy
 Trie Problem
 ====
 
-    construct Trie
+    Construct Trie
+      character serie
+      at each word, tag index
+      mark end at each word
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
