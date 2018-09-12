@@ -80,17 +80,7 @@ N Sum Problems
     
     40 
     
-  Trie and Suffix Tree
-  ----
-  For pattern matching, 2 ways
-  1. brute force
-  iterate and find all the first letter in the pattern
-  see if the following letters matches the pattern
-  
-  2.suffix tree
-  when patterns are too much,
-  suffix tree is good
-  
+
   
   
   
@@ -212,8 +202,8 @@ Array Manipulation
       * -> (i, j+1) or (i+1, j) or (i+1, j+1)
   
 
-Interval Questions
-====
+  Interval Questions
+  ----
   Sort First, then iterate through the list 
   
     56 Merge Intervals
@@ -357,6 +347,11 @@ Game Strategy
     
 Trie Problem
 ====
+    For pattern matching, 2 ways
+    1. brute force
+    iterate and find all the first letter in the pattern
+    see if the following letters matches the pattern
+
 
     Construct Trie
       character serie
@@ -366,7 +361,13 @@ Trie Problem
     Suffix Trie
     
     Roller 
-      
+    
+
+
+    2.suffix tree
+    when patterns are too much,
+    suffix tree is good
+  
     
     
     
