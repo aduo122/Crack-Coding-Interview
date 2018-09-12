@@ -362,6 +362,10 @@ Trie Problem
       character serie
       at each word, tag index
       mark end at each word
+    
+    Suffix Trie
+    
+    Roller 
       
     
     
