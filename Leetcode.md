@@ -290,8 +290,22 @@ Recursive and DP
     every time 
     dp[i] = t_sum * 1/W
     t_sum += dp[i] - dp[i-W]
-
-
+    
+ DP to Greedy
+ 
+    376. Wiggle Subsequence
+    DP solution: maintain a increase and decrease dic, {pointer: length so far, last num}
+    each time consider current num is increasing or decreasing, update the dictionary
+    
+    Greedy: consider turning point, the turning point remain the same
+    
+ Space O(n^2) -> O(n)
+ 
+    115. Distinct Subsequences
+    Campare current number each time, if not same -> move sourse to next, 
+                                             same -> move both to next
+                                             
+    since only looking at the next level, could only maintain one layer of numbers
     
 Backtracking
 ====
