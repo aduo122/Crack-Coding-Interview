@@ -306,7 +306,17 @@ Recursive and DP
                                              same -> move both to next
                                              
     since only looking at the next level, could only maintain one layer of numbers
+ 
+ Save Time 
+ 
+    300. Longest Increasing Subsequence
     
+    O(n^2) solution, consider longest subsequence and the largest number for each position 
+    
+    O(nlogn) solution, consider smallest number for each length of subsequence for each position
+    if cur is larger than all previous, length + 1, update cur to the list
+    
+ 
 Backtracking
 ====
   Construct composition questions
