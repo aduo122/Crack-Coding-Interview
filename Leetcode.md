@@ -301,6 +301,11 @@ Recursive and DP
     
     871. Minimum Number of Refueling Stops
     DP
+    napsack problem: weight, value
+    
+    minimum weight to achieve certain value?
+    maximum value with limited weight?
+    can transfer to each other
     
     Heap queue
     
