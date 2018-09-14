@@ -299,6 +299,13 @@ Recursive and DP
     
     Greedy: consider turning point, the turning point remain the same
     
+    871. Minimum Number of Refueling Stops
+    DP
+    
+    Heap queue
+    
+    
+    
  Space O(n^2) -> O(n)
  
     115. Distinct Subsequences
@@ -315,6 +322,10 @@ Recursive and DP
     
     O(nlogn) solution, consider smallest number for each length of subsequence for each position
     if cur is larger than all previous, length + 1, update cur to the list
+    
+    
+    
+    
     
  
 Backtracking
