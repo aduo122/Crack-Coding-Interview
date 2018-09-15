@@ -291,6 +291,11 @@ Recursive and DP
     dp[i] = t_sum * 1/W
     t_sum += dp[i] - dp[i-W]
     
+    818. Race Car
+    consider drive pass and return -> 1 condition
+    or drive close and return -> n-1 condition
+    calculate minimum
+    
  DP to Greedy
  
     376. Wiggle Subsequence
@@ -331,7 +336,9 @@ Recursive and DP
     if cur is larger than all previous, length + 1, update cur to the list
     
     
+    intrinclly, knapsack problem is Pseudo-polynomial time.
     
+    In computational complexity theory, a numeric algorithm runs in pseudo-polynomial time if its running time is a polynomial in the numeric value of the input (the largest integer present in the input) — but not necessarily in the length of the input (the number of bits required to represent it), which is the case for polynomial time algorithms.
     
     
  
