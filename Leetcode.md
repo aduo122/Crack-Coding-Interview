@@ -340,7 +340,8 @@ Recursive and DP
     
     In computational complexity theory, a numeric algorithm runs in pseudo-polynomial time if its running time is a polynomial in the numeric value of the input (the largest integer present in the input) — but not necessarily in the length of the input (the number of bits required to represent it), which is the case for polynomial time algorithms.
     
-    
+    An NP-complete problem with known pseudo-polynomial time algorithms is called weakly NP-complete. An NP-complete problem is called strongly NP-complete if it is proven that it cannot be solved by a pseudo-polynomial time algorithm unless P=NP. The strong/weak kinds of NP-hardness are defined analogously.
+
  
 Backtracking
 ====
