@@ -190,6 +190,15 @@ Array Manipulation
     front track, back track
     get max of both list to calculate
   
+    907. Sum of Subarray Minimums
+    calculate left[i] and right[i]
+    sum(left[i] * right[i] * A[i])
+    
+    901. Online Stock Span
+    828. Unique Letter String
+    891. Sum of Subsequence Widths
+  
+  
   DP, compare current, match or not, find result from next layer
   
     10 Regular Expression Matching
