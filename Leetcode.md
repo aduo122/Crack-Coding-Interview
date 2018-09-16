@@ -127,6 +127,8 @@ Bit Manipulation
     372. Super Pow
       1337 could be generalized to n
     
+    136 137 Single Number
+    
 Array Manipulation
 ====
   Palindrone
