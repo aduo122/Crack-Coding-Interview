@@ -13,6 +13,9 @@ Sort Problems
     if nega then ignore, else, switch
     notice the switch ending condition, 1.cur is nega or too large 2. cur is right place 3. cur is equal to target
     
+    164. Maximum Gap
+    sort according to digit
+    O(10 * 10 * N)
 
 LinkedList 
 ====
