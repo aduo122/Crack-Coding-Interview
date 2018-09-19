@@ -226,6 +226,19 @@ Array Manipulation
     difference senario
     left overlap, right overlap, outside all overlap, no overlap, first insert, last insert
     
+    check left first
+    if no left:
+    elif left overlap
+    elif left no overlap
+    
+    then check right:
+    if no right:
+    elif right overlap:
+    elif right no overlap
+    
+    
+    
+    
 Tree Structure
 ====
   Three iterate
