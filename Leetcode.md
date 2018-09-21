@@ -366,6 +366,11 @@ Recursive and DP
     O(nlogn) solution, consider smallest number for each length of subsequence for each position
     if cur is larger than all previous, length + 1, update cur to the list
     
+    410. Split Array Largest Sum
+    O(m^2*n) DP solution, check which group the first item belongs to
+    
+    O(log(sum) * n) binary search method, cut sum range
+    
     
     intrinclly, knapsack problem is Pseudo-polynomial time.
     
