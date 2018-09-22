@@ -301,6 +301,13 @@ Graph Problems
     DFS -> find cycle or find sink
     BFS -> each layer, get sink or return cycle
     
+  Complex Graph Problems
+  
+    753. Cracking the Safe
+    De Bruijin Graph, 
+    know relation from Hamilton -> Eularian -> De Bruijin
+    
+    
 OO Program
 ====
     146 LRU & LFU
