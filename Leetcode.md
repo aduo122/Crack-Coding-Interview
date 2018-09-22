@@ -236,7 +236,15 @@ Array Manipulation
     elif right overlap:
     elif right no overlap
     
-    
+    729. My Calendar I
+      binary search, find insert position first:
+      if smallest -> 0; if middle -> bsearch; if largest -> len(arr)
+      
+      check left neighbor:
+      left[1] > start -> overlap
+      check right neighbor:
+      right[0] < end -> overlap
+      
     
     
 Tree Structure
