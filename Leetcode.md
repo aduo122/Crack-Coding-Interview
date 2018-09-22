@@ -244,7 +244,10 @@ Array Manipulation
       left[1] > start -> overlap
       check right neighbor:
       right[0] < end -> overlap
-      
+    
+    731. My Calendar II
+      intersection <-> left < j and right > i
+      intersection = [max(left, i), min(right, j)]
     
     
 Tree Structure
