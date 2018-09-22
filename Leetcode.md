@@ -454,8 +454,9 @@ Trie Problem
     when patterns are too much,
     suffix tree is good
   
-    
-    
+ Greedy
+ ====
+ Automaton
     
     
     
