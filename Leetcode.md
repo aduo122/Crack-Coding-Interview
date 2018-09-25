@@ -291,6 +291,8 @@ Graph Problems
     529. Minesweeper
     BFS
     
+    815. Bus Routes
+    store place in queue would be easier
     
     886. Possible Bipartition
     BFS, pay attention to nodes not in dislike, dic[node] = [] or test node in dic each time
