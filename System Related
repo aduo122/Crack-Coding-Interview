@@ -13,9 +13,11 @@
     4. server connection
     7 tiers, seals each time
     application -> transport -> network -> data -> physical
-    Single thread
     
-    5. render
+    5. server end
+    Single thread better, context switch lose cache
+    
+    6. render
     cookie for store data, also local persist
     
   
