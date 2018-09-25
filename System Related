@@ -1,0 +1,21 @@
+1. what happend www.google.com?
+----  
+    
+    1.type process, local machine
+    interruption, for io
+    local cache for searching recent result
+    
+    2. DNS find server IP
+    
+    3.http / https connections
+    3 shake hands, TCP connection
+    
+    4. server connection
+    7 tiers, seals each time
+    application -> transport -> network -> data -> physical
+    Single thread
+    
+    5. render
+    cookie for store data, also local persist
+    
+  
