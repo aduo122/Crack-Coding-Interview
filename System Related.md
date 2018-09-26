@@ -20,3 +20,8 @@
     cookie for store data, also local persist
     
   
+# 2. design a parking lot
+
+    1.use case
+    driver drives in -> get to the gate, arrange spot, take a ticket, gate open, car pass, gate close, park to the spot
+    driver get out -> drive away from spot, get to the gate, pay money,release spot, gate open, car pass, gate close
