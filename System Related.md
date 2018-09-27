@@ -52,3 +52,12 @@
     +getslot()
     +getgate()
     
+# 3. Design Tiny Url
+    Senario: long -> short, short -> long
+    N
+    Application: long -> hash -> dic -> short
+                 short -> dic -> long
+                 trade off?
+    Kilobit: calculation
+    Evolve: distributed system
+    
