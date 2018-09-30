@@ -308,8 +308,30 @@ Graph Problems
     753. Cracking the Safe
     De Bruijin Graph, 
     know relation from Hamilton -> Eularian -> De Bruijin
+  
+  Strong Connected Components
     
+    find sink first, consider forest, run DFS on reverse_graph
+    for node from lagest postorder,
+        if the node not visited:
+            explore the node
+            store the nodes to the SCC
+  
+  Graph with weights
+  Dijakstra: weight has to be non negative
     
+    heap [(nextnode.weight,node)]
+    
+  Bellman-Ford: worked for both
+    run |V| - 1 times
+        for edge in edges:
+          relax(edge)
+  
+  
+  Minimal Spanning Tree
+  Kruskal: next minium edge that didn't make a cycle, union find
+  Prim: next neighbor with mimial weight, heap sort
+ 
 OO Program
 ====
     146 LRU & LFU
