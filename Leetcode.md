@@ -110,6 +110,11 @@ Binary Search
   
     240 Search a 2D Matrix II
       每一行二分搜索，由之前的结果得到右边的边界
+    
+    540. Single Element in a Sorted Array
+      每次计算mid的index，根据奇偶找前后的数字，判断单独的数字是否出现在前面
+      
+      follow：如果数字可以重复的呢（0,0,0）？
   
   value二分
   左右边界为值，通过mid值来卡一些条件,通常关键词带有“第K个”
