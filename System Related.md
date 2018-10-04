@@ -54,7 +54,17 @@
     
 # 3. Design Tiny Url
     Senario: long -> short, short -> long
-    N
+    
+    Nenessary: RPS required? read/write 
+               1 * 10 ^ 6 daily active user
+               write: 1 * 10 ^ 6 * 0.01 * 10 / 86400 = 1.2 百分之一的人，每天插入10个 
+               read： 1 * 10 ^ 6 * 1 * 3 / 86400 = 35
+               
+               peak write: 5 * 1.2 = 6
+               peak read : 5 * 35 = 175
+               
+               one machine can handle 1 * 10 ^ 3 so one node is enough
+    
     Application: long -> hash -> dic -> short
                  short -> dic -> long
                  trade off?
