@@ -60,6 +60,9 @@
                  trade off?
     Kilobit: calculation
     Evolve: distributed system
+    read a lot, write is fine: master - slave system
+    
+    read a lot, write a lot: sharding, all the new url might be stored, short -> many long url
 
 # 4. design file system
     
