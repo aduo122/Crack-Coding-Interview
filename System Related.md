@@ -75,4 +75,7 @@
     read a lot, write a lot: sharding, all the new url might be stored, short -> many long url
 
 # 4. design file system
-    
+
+# 5. Design Twitter
+    Push: following too much, cant pull all together, push to queue
+    Pull: follower too much, can't push to all, send to queue when request from following
